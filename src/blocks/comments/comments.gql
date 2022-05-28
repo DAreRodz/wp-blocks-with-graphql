@@ -1,0 +1,8 @@
+query Comments($postId: [ID], $commentFragments: Boolean!) {
+	comments(where: { commentIn: $postId }) {
+		nodes {
+			databaseId
+			...commentFragments @include(if: $commentFragments)
+		}
+	}
+}

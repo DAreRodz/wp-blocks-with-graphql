@@ -1,0 +1,17 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "graphql/comment-author-name",
+	"version": "0.1.0",
+	"title": "Graphql Comment Author Name",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Example of a dynamic block using a GraphQL fragment.",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "graphql-comments-query",
+	"editorScript": "file:./index.js",
+	"usesContext": [ "comment" ],
+	"parent": [ "graphql/comments-query"]
+}

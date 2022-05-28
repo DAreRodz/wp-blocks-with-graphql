@@ -1,0 +1,7 @@
+fragment authorName on Comment {
+	author {
+		node {
+			name
+		}
+	}
+}
