@@ -19,7 +19,6 @@
 		"@wordpress/scripts": "^23.0.0"
 	},
 	"dependencies": {
-		"@apollo/react-hooks": "^4.0.0",
-		"graphql-tag": "^2.12.6"
+		"@apollo/client": "^3.6.5"
 	}
 }

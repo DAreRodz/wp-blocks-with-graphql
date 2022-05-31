@@ -1,6 +1,5 @@
-import { ApolloClient, InMemoryCache } from "@apollo/react-hooks";
 import { applyFilters } from "@wordpress/hooks";
-import { useQuery } from "@apollo/react-hooks";
+import { ApolloClient, InMemoryCache, useQuery } from "@apollo/client";
 import gql from "graphql-tag";
 
 export const client = new ApolloClient({
