@@ -14,24 +14,20 @@ This experiment has the following dependencies:
 
 ## Set up
 
-Install dependencies
+Install NPM dependencies.
 
 ```bash
 npm install
-npx wp-env run cli wp plugin install wpgraphql
 ```
-Start the project
+Install the WPGraphQL plugin.
 
 ```bash
-npm start
+npx wp-env run cli wp plugin install wpgraphql
 ```
 
+Start the project.
 
-## How it works
-
-Despite its apparent simplicity,
-
-
-## Some considerations
-
-- Not clear how to integrate with TypeScript
+```bash
+npx wp-env start
+npm start
+```
