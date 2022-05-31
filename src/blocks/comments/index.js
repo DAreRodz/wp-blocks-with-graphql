@@ -1,3 +1,4 @@
+import { postComments as icon } from "@wordpress/icons";
 import { registerBlockType } from "@wordpress/blocks";
 import { ApolloProvider } from "@apollo/client";
 import { client } from "../../utils";
@@ -12,7 +13,8 @@ const Edit = (props) => {
 	);
 };
 
-registerBlockType("graphql/comments-query", {
+registerBlockType("graphql/comments", {
+	icon,
 	edit: Edit,
 	save: Save,
 });

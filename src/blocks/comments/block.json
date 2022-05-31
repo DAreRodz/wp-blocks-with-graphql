@@ -1,9 +1,9 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/block.json",
 	"apiVersion": 2,
-	"name": "graphql/comments-query",
+	"name": "graphql/comments",
 	"version": "0.1.0",
-	"title": "Graphql Comments Query",
+	"title": "Comments (GraphQL)",
 	"category": "widgets",
 	"icon": "smiley",
 	"description": "Example of a dynamic block using a GraphQL query.",

@@ -19,6 +19,7 @@
 		"@wordpress/scripts": "^23.0.0"
 	},
 	"dependencies": {
-		"@apollo/client": "^3.6.5"
+		"@apollo/client": "^3.6.5",
+		"@wordpress/icons": "^9.0.0"
 	}
 }
