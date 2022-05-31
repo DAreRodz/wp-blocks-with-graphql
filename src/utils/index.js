@@ -1,6 +1,5 @@
 import { applyFilters } from "@wordpress/hooks";
-import { ApolloClient, InMemoryCache, useQuery } from "@apollo/client";
-import gql from "graphql-tag";
+import { ApolloClient, InMemoryCache, useQuery, gql } from "@apollo/client";
 
 export const client = new ApolloClient({
 	uri: "/graphql",
